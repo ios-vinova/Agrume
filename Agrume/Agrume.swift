@@ -20,8 +20,8 @@ public protocol AgrumeDataSource {
 public final class Agrume: UIViewController {
 
   fileprivate static let transitionAnimationDuration: TimeInterval = 0.3
-  fileprivate static let initialScalingToExpandFrom: CGFloat = 0.6
-  fileprivate static let maxScalingForExpandingOffscreen: CGFloat = 1.25
+  fileprivate static let initialScalingToExpandFrom: CGFloat = 0.8
+  fileprivate static let maxScalingForExpandingOffscreen: CGFloat = 0.8
   fileprivate static let reuseIdentifier = "reuseIdentifier"
 
   fileprivate var images: [UIImage]!
